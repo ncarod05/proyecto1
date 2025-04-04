@@ -4,40 +4,47 @@ body {
 
 
 .banner{
-    background: url('../images/fondo.jpg') no-repeat center center/cover;
+    background: url(../images/Fondo.jpg) no-repeat center center/cover;
     height: 250px;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: left;
     padding-left: 50px;
+    font-size: 25px;
 }
 .banner_titulo h1 {
-    font-weight: normal; 
+    font-weight: normal;
+    color: wheat;
 }
 
 .negrita {
     font-weight: bold;
+    color: goldenrod;
 }
 
 .subtitulo{
-    margin-top: -15px;
+    margin-top: -30px;
+    color: white;
 }
 
-.planta {
+.suple {
     display: flex;
     align-items: center; 
+    border: black solid;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color:lightyellow;
 }
 
 .img {
     width: 300px;
     height: auto;
-    margin-left: 30px;
-    margin-top: 50px;
+    padding: 20px;
 }
 
 .txt, .precio {
-    padding-left: 25px;
+    font-size: 20px;
 }
 
 .precio {
@@ -46,8 +53,8 @@ body {
 
 
 footer {
-    background-color: rgb(134, 87, 0);
-    color: white;
+    background-color: goldenrod;
+    color: black;
     padding: 1px;
     text-align: center;
     margin-top: 30px;
