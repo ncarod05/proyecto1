@@ -2,59 +2,53 @@ body {
     font-family:"Comic Sans MS", "Comic Sans", cursive;
 }
 
-
-.banner{
-    background: url(../images/Fondo.jpg) no-repeat center center/cover;
+.header{
+    background: url('../images/fondo.jpg') no-repeat center center/cover;
     height: 250px;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: left;
     padding-left: 50px;
-    font-size: 25px;
+    color: white;
 }
-.banner_titulo h1 {
-    font-weight: normal;
-    color: wheat;
+.header_titulo h1 {
+    font-weight: normal; 
 }
 
 .negrita {
     font-weight: bold;
-    color: goldenrod;
+    color: wheat;
 }
 
 .subtitulo{
-    margin-top: -30px;
-    color: white;
+    margin-top: -15px;
 }
 
 .suple {
     display: flex;
     align-items: center; 
-    border: black solid;
-    margin-top: 20px;
-    border-radius: 20px;
-    background-color:lightyellow;
 }
 
 .img {
     width: 300px;
     height: auto;
-    padding: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
 }
 
 .txt, .precio {
-    font-size: 20px;
+    padding-left: 20px;
 }
 
 .precio {
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 
 footer {
     background-color: goldenrod;
-    color: black;
+    color: white;
     padding: 1px;
     text-align: center;
     margin-top: 30px;
