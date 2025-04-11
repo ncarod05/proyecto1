@@ -3,7 +3,7 @@ body {
 }
 
 
-.banner{
+.header{
     background: url('../images/fondo.jpg') no-repeat center center/cover;
     height: 250px;
     background-size: cover;
@@ -12,7 +12,7 @@ body {
     justify-content: left;
     padding-left: 50px;
 }
-.banner_titulo h1 {
+.header_titulo h1 {
     font-weight: normal; 
 }
 
