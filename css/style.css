@@ -4,14 +4,12 @@ body {
 
 
 .header{
-    background-image: url(../images/Fondo.jpeg);
-    height: 300px;
-    font-size: 180%;
+    background: url('../images/fondo.jpeg') no-repeat center center/cover;
+    height: 250px;
     background-size: cover;
-    background-position-y: 72%;
-    background-position-x: 50%;
     display: flex;
     align-items: center;
+    justify-content: left;
     padding-left: 50px;
 }
 .header_titulo h1 {
@@ -23,32 +21,32 @@ body {
 }
 
 .subtitulo{
-    margin-top: -30px;
+    margin-top: -15px;
 }
 
 .auto {
     display: flex;
-    align-items: center;
-    margin-top: 20px;
-    background-color:rgb(201, 221, 233);
-    border-radius: 20px;
-    border-width: 50px;
-    border: black solid;
+    align-items: center; 
 }
 
 .img {
     width: 300px;
     height: auto;
-    padding: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
 }
 
-.texto {
+.txt, .precio {
+    padding-left: 20px;
+}
+
+.precio {
     margin-top: -10px;
 }
 
 
 footer {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(55, 115, 126);
     color: white;
     padding: 1px;
     text-align: center;
