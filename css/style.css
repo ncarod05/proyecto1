@@ -2,11 +2,11 @@ body {
     font-family:"Comic Sans MS", "Comic Sans", cursive;
 }
 
-
 .header{
     background: url('../images/fondo.jpeg') no-repeat center center/cover;
     height: 250px;
     background-size: cover;
+    background-position-y: 70%;
     display: flex;
     align-items: center;
     justify-content: left;
