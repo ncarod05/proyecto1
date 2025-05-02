@@ -1,3 +1,3 @@
 # proyecto1
 Primer proyecto con html y css
-Primera subida
+Ahora contiene las 2 ramas que antes faltaban
